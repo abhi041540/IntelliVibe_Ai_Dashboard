@@ -1,0 +1,3 @@
+const data1=[{image:"../images/im1.jpg",text:"IntelliVibe can help you identify Viola by analyzing bird calls and photos. Just snap a picture or record its song and done, let our AI do the rest for you.",title:"Viola the Bird 🦜"},{image:"../images/im3.jpg",text:"Immerse yourself in a vibrant world where your ideas are not only nurtured but also elevated to new heights IntelliVibe ensures the possibilities are truly limitless.",title:"CoCreate💡"},{image:"../images/im2.jpg",text:"IntelliVibe can curate personalized movie recommendations based on your viewing history and preferences. Discover hidden gems and all-time favorites with ease.",title:"Hindi Cinema 🎬"}];
+
+export default data1;

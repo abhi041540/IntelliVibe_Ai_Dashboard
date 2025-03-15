@@ -1,0 +1,563 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+    font-weight: 300;
+    scrollbar-color: transparent transparent;
+    text-rendering: optimizeLegibility;
+    color: white;
+    background-color: #1f1f1f;
+    font-family: "Lato", "Arial", sans-serif;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.navback::before {
+    content: " ";
+    background-color: #1f1f1f;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    z-index: 201;
+    position: absolute;
+}
+
+.navback::after {
+    content: " ";
+    background-color: #1f1f1f;
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+    z-index: 201;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#background {
+    max-width: 100vw;
+    min-height: 600px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(45deg, #3b3b3b, #1a1a1a);
+    animation: gradientChange 30s ease infinite;
+}
+
+#background h1 {
+    min-width: 70vw;
+    padding: 20px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 220%;
+    font-family: serif;
+    font-weight: 600;
+    z-index: 20;
+    position: relative;
+}
+
+#background a:link,
+#background a:visited {
+    display: block;
+    text-decoration: none;
+    color: white;
+    max-width: 100px;
+    border-radius: 30px;
+    z-index: 20;
+    position: relative;
+    padding: 4px 20px;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(45deg, #0b284b, #242424);
+}
+
+#background a:hover,
+#background a:active {
+    background: linear-gradient(45deg, #363636, #141313);
+}
+
+@keyframes gradientChange {
+    0% {
+        background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+    }
+
+    75% {
+        background: linear-gradient(45deg, #8a2be2, #5f9ea0, #d2691e);
+    }
+
+    100% {
+        background: linear-gradient(45deg, #1a2a6c, #b21f1f, #fdbb2d);
+    }
+}
+
+.bubble {
+    position: absolute;
+    bottom: -100px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.7));
+    animation: floatUp 2s infinite ease-in-out, fadeOut 20s infinite ease-in-out;
+    z-index: 1;
+}
+
+@keyframes floatUp {
+    0% {
+        transform: translateY(90vh);
+    }
+
+    100% {
+        transform: translateY(-100vh);
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.navlogo {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.navul li a:link,
+.navul li a:visited {
+    color: white;
+    margin-right: 80px;
+    display: inline-block;
+    padding: 4px 30px;
+    transition: background-color 0.4s;
+    border-radius: 15px;
+}
+
+.navul li a:hover,
+.navul li a:active {
+    background-color: rgb(66, 63, 63);
+
+}
+
+.hmaininfo {
+    border-radius: 34px;
+    margin-top: -70px;
+    background-color: #292727;
+}
+
+.hsection2 h1,
+.hsection3 h1,
+.hsection4 h1 {
+    color: white;
+    padding: 30px;
+    font-size: 160%;
+    margin-left: 40px;
+}
+
+section::after {
+    content: "";
+    display: block;
+    width: 70vw;
+    height: 2px;
+    margin: 20px auto;
+    margin-top: 50px;
+    background-color: rgb(82, 80, 80);
+}
+
+.hcomponent .card {
+    margin: 20px;
+    min-width: 260px;
+}
+
+.ff li {
+    color: gray;
+    text-align: left;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.ff li span {
+    color: white;
+}
+
+.cta {
+    position: relative;
+}
+
+.cta a:link,
+.cta a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 1px 8px;
+    border-radius: 50%;
+    transition: background-color 0.3s, color 0.5s;
+}
+
+.cta a:hover,
+.cta a:active {
+    background-color: black;
+    color: white;
+}
+
+.cta div {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+}
+
+.qustionblock {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.qustioncontent {
+    background-color: rgb(43, 43, 43);
+    padding: 2px 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.ansblock {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 80%;
+   
+}
+
+.anscontent {
+    background-color: rgb(43, 43, 43);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    margin: 10px;
+    min-width: 300px;
+    max-width: 60vw;
+    overflow: auto;
+    scrollbar-width: none;
+
+}
+
+pre {
+    width: 100%;
+    padding: 0;
+}
+
+.chatlogo {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: rgb(22, 21, 21);
+    z-index: 400;
+    border-radius: 40px;
+}
+
+.chatnav::before {
+    content: " ";
+    background-color: rgb(22, 21, 21);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    z-index: 201;
+    position: fixed;
+}
+
+.chatnav::after {
+    content: " ";
+    background-color: rgb(22, 21, 21);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    z-index: 201;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.masterpiece-background {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff4b1f, #1fddff);
+    background-size: 200% 200%;
+    animation: gradientShift 4s ease infinite;
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+ .animation {
+    background: linear-gradient(135deg, #ff4b1f, #1fddff);
+     width: 100vw;
+    height: 100vh;
+}
+
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #5fe2ff, #f8a86b);
+    background-size: 200% 200%;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 20px gray;
+  }
+  
+  .speaking {
+    animation: sizeChange 2s ease infinite, gradientShift 2s ease infinite;
+  }
+  
+  @keyframes sizeChange {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }}
+.speakdiv:link,.speakdiv:visited
+{
+    text-decoration: none;
+    color: white;
+    width: 20px;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    z-index: 9999;
+    padding: 4px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+.speakdiv:hover,.speakdiv:active
+{
+    background-color: gray;
+}
+.form
+{
+    background-color: #323131;
+  padding: 30px;
+  border-radius: 20px;
+  border: 2px solid gray;
+  box-shadow: 10px 10px 10px rgba(111, 110, 110, 0.553);
+
+}
+#emailHelp
+{
+    color: rgb(118, 118, 118);
+}
+.form button,.signupbtn,.signupback
+{
+    display: inline-block;
+    margin: 30px 0 10px 20px;
+    background:linear-gradient(45deg,rgb(24, 24, 24),gray);
+    border: 1px solid gray;
+}
+.form button:hover,.signupbtn:hover,.signupback:hover
+{
+    background:linear-gradient(45deg,gray,rgb(24, 24, 24));
+    border: 1px solid gray;
+}
+.forma
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.forma a:link,.forma a:visited
+{
+    color: rgb(177, 177, 177);
+    transition: color 0.2s;
+}
+.forma a:hover,.forma a:active
+{
+    color: #ffffff;
+}
+.form input[type="email"]:focus,.form input[type="password"]:focus,.form input[type="checkbox"]:focus,.form input[type="text"]:focus
+{
+   box-shadow: 5px 5px 5px rgb(29, 29, 29);
+   border: 1px solid gray;
+}
+.otp
+{
+    z-index: 9999;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+    background-color: black;
+    padding: 20px;
+    padding-top: 0px;
+    
+}
+.otpbtn
+{
+    color: white;
+    background-color: gray;
+    padding: 2px 14px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+.otpverify
+{
+    visibility: hidden;
+}
+
+.documentation-container {
+    background: linear-gradient(135deg, #222, #333, #444);
+    color: #eee;
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+  }
+  
+ 
+  .section-title {
+    color: #fff;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+ 
+  .hero-section{
+  
+      padding:20px 0px;
+      border-bottom:1px solid #555
+  
+  }
+  
+ 
+  .url-display {
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    padding: 10px;
+    color: #9cdcfe; 
+    overflow-x: auto; 
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .json-example {
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    padding: 10px;
+    overflow-x: auto;
+    margin-bottom: 1rem;
+  }
+  
+ 
+  .code-example {
+    margin-bottom: 1rem;
+  }
+  
+  .expand-button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    margin-bottom: 5px; 
+  
+  }
+  
+  .expand-button:hover {
+    background-color: #444;
+      transform: scale(1.02);
+  }
+  
+  .expand-button.active {
+    background-color: #555;
+  }
+  
+  .code-block {
+    background-color: #1e1e1e;
+    border: 1px solid #555;
+    padding: 10px;
+    overflow-x: auto;
+    max-height: 0;
+    overflow: auto; 
+    transition: max-height 0.3s ease; 
+  }
+  
+  .code-block.expanded {
+    max-height: 1000px; 
+  }
+
+  pre {
+      white-space: pre-wrap;     
+      white-space: -moz-pre-wrap;  
+      white-space: -pre-wrap;     
+      white-space: -o-pre-wrap;    
+      word-wrap: break-word;      }
+
+  .api-key-section{
+      padding: 20px;
+      border-bottom: 1px solid #555;
+  
+  
+  }
+  
+  .request-structure-section{
+      padding:25px;
+      border-bottom: 1px solid #555;
+  
+  }
+  
+  .code-examples-section{
+          padding:25px;
+      border-bottom: 1px solid #555;
+  }
+   
+  .error-handling-section{
+       padding:25px;
+      border-bottom: 1px solid #555;
+  }
+
+  .rate-limiting-section{
+      padding:25px;
+      border-bottom: 1px solid #555;
+  }
+  
+  .support-section{
+      padding:23px
+  
+  }
