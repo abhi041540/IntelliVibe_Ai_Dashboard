@@ -24,7 +24,7 @@ function Signup() {
         <input type="checkbox" className="form-check-input" required/>
         <label className="form-check-label" for="exampleCheck1">agree that free API not for commercial use</label>
       </div>
-      <button type="submit" className="btn btn-primary">Continuoue</button>
+      <button type="submit" className="btn btn-primary">Continue</button>
       <a  href="#" className="btn btn-primary signupback">Back</a>
     </form>
    </div>

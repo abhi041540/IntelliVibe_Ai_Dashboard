@@ -183,7 +183,7 @@ $(".changeform").on("submit", (event) => {
             <div className="apisection">
                 <h2 style={{ backgroundColor: "#1f1f1f", padding: "0", padding: "10px", fontSize: "95%", margin: 0 }}><img src="../../logo.png" alt="logo" style={{ width: "40px", marginRight: "10px" }} />IntelliVibe AI</h2>
                 <div style={{ backgroundColor: "#1f1f1f", padding: "0", padding: "10px", margin: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <h3 style={{ margin: 0, fontSize: "135%", fontFamily: "serif" }}>Login to Continuoue</h3>
+                    <h3 style={{ margin: 0, fontSize: "135%", fontFamily: "serif" }}>Login to Continue</h3>
                 </div>
                 <Login />
             </div>
@@ -194,7 +194,7 @@ $(".changeform").on("submit", (event) => {
             <div className="apisection">
                 <h2 style={{ backgroundColor: "#1f1f1f", padding: "0", padding: "10px", fontSize: "95%", margin: 0 }}><img src="../../logo.png" alt="logo" style={{ width: "40px", marginRight: "10px" }} />IntelliVibe AI</h2>
                 <div style={{ backgroundColor: "#1f1f1f", padding: "0", padding: "10px", margin: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <h3 style={{ margin: 0, fontSize: "135%", fontFamily: "serif" }}>Signup to Continuoue</h3>
+                    <h3 style={{ margin: 0, fontSize: "135%", fontFamily: "serif" }}>Signup to Continue</h3>
                 </div>
                 <Signup />
                 <Otp />
