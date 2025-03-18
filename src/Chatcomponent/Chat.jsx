@@ -5,10 +5,8 @@ import highlight from "highlight.js";
 import axios from "axios";
 import { surl } from "../Hcomponents/Home";
 
+axios.defaults.withCredentials=true;
 function Chat() {
-
-
-
     var textqus = useRef(null);
     const [phase, setPhase] = useState(0);
     const [qustion, setQustion] = useState("");

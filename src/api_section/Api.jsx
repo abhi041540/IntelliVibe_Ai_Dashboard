@@ -6,6 +6,7 @@ import { surl } from "../Hcomponents/Home";
 import axios from "axios";
 import Otp from "./otp";
 import ChangePassword from "./ChangePassword";
+axios.defaults.withCredentials=true;
 function Api() {
     const otpvalue = useRef("");
     var [part, setPart] = useState(1);

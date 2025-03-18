@@ -3,7 +3,7 @@ import { useSpeechRecognition } from 'react-speech-kit';
 import $ from "jquery";
 import axios from 'axios';
 import { surl } from '../Hcomponents/Home';
-
+axios.defaults.withCredentials=true;
 const Speak = () => {
     const [isAnimating, setAnimating] = useState(false);
     const [transcript, setTranscript] = useState('');
