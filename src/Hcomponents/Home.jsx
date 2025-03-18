@@ -5,8 +5,7 @@ import Hsection2 from "./Hsection2";
 import Hsection3 from "./Hsection3";
 import Hsection4 from "./Hsection4";
 import Footer from "./Footer";
-// const surl = "https://intellivibe-ai-dashboard-server-1.onrender.com";
-const surl="http://localhost:3001";
+const surl = "https://intellivibe-ai-dashboard-server-1.onrender.com";
 
 function Home() {
     return (<div style={{ backgroundColor: "#1f1f1f", overflowX: "hidden" }}>
