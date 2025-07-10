@@ -117,6 +117,7 @@ function Chat() {
         axios.post(`${surl}/intellivibe/chat`, { chat: qsdata }).then((resp) => {
 
             processans(resp.data);
+            // console.log(resp.data);
             setSpeaktext(resp.data.replaceAll("**", " ")?.replaceAll("*", ""));
             setQustion("");
             setEdtiable(true);
