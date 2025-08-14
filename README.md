@@ -1,4 +1,4 @@
-# 🤖 IntelliVibe AI — Smart Dashboard Powered by Google Gemini
+# 🤖 IntelliVibe AI — Smart AI Assistance
 
 [🚀 Live App](https://intellivibeai.vercel.app/) • [📁 GitHub Repository](https://github.com/abhi041540/IntelliVibe_Ai_Dashboard)
 
