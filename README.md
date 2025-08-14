@@ -9,7 +9,7 @@
 ## ✨ Key Features
 
 - 🔍 **AI-Powered Search**
-  - Ask anything and get intelligent responses powered by Google Gemini
+  - Ask anything and get intelligent responses powered by Google
   - Session-based tracking for personalized interactions
 
 - 🗣️ **Voice Assistant**
