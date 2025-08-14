@@ -1,3 +1,151 @@
+# 🤖 IntelliVibe AI — Smart Dashboard Powered by Google Gemini
+
+[🚀 Live App](https://intellivibeai.vercel.app/) • [📁 GitHub Repository](https://github.com/abhi041540/IntelliVibe_Ai_Dashboard)
+
+**IntelliVibe AI** is a powerful, voice-enabled AI dashboard built on Google Gemini’s API. It offers real-time intelligent responses, developer-ready API access, and a downloadable Java desktop app—all wrapped in a sleek, interactive interface.
+
+---
+
+## ✨ Key Features
+
+- 🔍 **AI-Powered Search**
+  - Ask anything and get intelligent responses powered by Google Gemini
+  - Session-based tracking for personalized interactions
+
+- 🗣️ **Voice Assistant**
+  - Built with React Speech Kit and Voice Synthesis
+  - Speak to the AI and hear responses in real time
+  - Dynamic background animation based on interaction state
+
+- 🔑 **API Key System**
+  - Users can register and generate unique API keys
+  - Request tracking and rate limiting (60 requests/minute)
+  - Secure key generation using Node.js Crypto module
+
+- 📚 **Developer Documentation**
+  - Full API reference with endpoints, error codes, usage limits
+  - Sample code in JavaScript, Python, and pseudocode
+  - Ideal for both technical and non-technical users
+
+- 💻 **Java Desktop App**
+  - Built with JavaFX and Swing
+  - Downloadable from the website
+  - Offers offline AI interaction and API integration
+
+---
+
+## 🖼️ Visual Preview
+
+### 🧠 AI Dashboard Interface
+
+![AI Dashboard](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191077/iejlzetkduemr3dbkxc4.png)
+
+Clean and responsive interface for real-time AI interaction.
+
+---
+
+### 🔊 Voice Assistant Panel
+
+![Voice Assistant](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191079/dp364yqiwpdurr7kc6iu.png)
+
+Speak to the AI and receive spoken responses with animated feedback.
+
+---
+
+### 📈 API Key Generation
+
+![API Key System](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191083/rkwfva8zebxvzo8bbof3.png)
+
+Secure, unique API keys for each user—used for request tracking and rate limiting.
+
+---
+
+### 📚 Documentation Center
+
+![Documentation Center](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191086/j6gbdele1yps4zvam03l.png)
+
+Comprehensive guide with endpoints, error handling, and sample code.
+
+---
+
+### 🧪 Sample Code & Usage Limits
+
+![Code Samples](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191089/jaan4t5lfqk748hoxljt.png)
+
+Includes JavaScript, Python, and universal pseudocode for easy integration.
+
+---
+
+### 📊 Request Monitoring
+
+![Request Tracker](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191092/rbnc7rmzbot9o5xrmvpm.png)
+
+Track API usage per user and enforce request limits intelligently.
+
+---
+
+### 💻 Java Desktop App Integration
+
+![Java App](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191095/whbi2i04pjduh971gjck.png)
+
+Downloadable JavaFX/Swing app for offline AI access and API testing.
+
+---
+
+### 🎨 Dynamic UI Feedback
+
+![Animated Background](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191235/zllwdibuojnuydokrkrm.png)
+
+Background color changes based on user interaction—visual cue for AI activity.
+
+---
+
+### 🔐 Secure Key Architecture
+
+![Crypto Key Logic](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191238/vmvjzcegttnpaxbd0a8k.png)
+
+Uses Node.js Crypto module for secure, hashed API keys.
+
+---
+
+### 🧵 Session-Based AI Flow
+
+![Session Flow](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191241/fm4ou11vhbiknnteezk4.png)
+
+Each user session is tracked for personalized and secure AI communication.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology                |
+|-------------|----------------------------|
+| Frontend    | React.js, Tailwind CSS     |
+| Backend     | Node.js, Express, Web Sockets, User Sessions|
+| AI Engine   | Google          |
+| Voice       | React Speech Kit, Voice Synthesis |
+| Desktop App | JavaFX, Swing              |
+| Hosting     | Vercel                     |
+
+---
+
+## 🚀 Getting Started
+
+To run locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/abhi041540/IntelliVibe_Ai_Dashboard.git
+cd IntelliVibe_Ai_Dashboard
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
