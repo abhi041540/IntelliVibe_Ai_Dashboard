@@ -39,6 +39,7 @@
 ### 🧠 AI Dashboard Interface
 
 ![AI Dashboard](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191077/iejlzetkduemr3dbkxc4.png)
+![AI Dashboard](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191079/dp364yqiwpdurr7kc6iu.png)
 
 Clean and responsive interface for real-time AI interaction.
 
@@ -46,7 +47,8 @@ Clean and responsive interface for real-time AI interaction.
 
 ### 🔊 Voice Assistant Panel
 
-![Voice Assistant](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191079/dp364yqiwpdurr7kc6iu.png)
+![Voice Assistant](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191238/vmvjzcegttnpaxbd0a8k.png)
+![Voice Assistant](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191241/fm4ou11vhbiknnteezk4.png)
 
 Speak to the AI and receive spoken responses with animated feedback.
 
@@ -54,7 +56,7 @@ Speak to the AI and receive spoken responses with animated feedback.
 
 ### 📈 API Key Generation
 
-![API Key System](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191083/rkwfva8zebxvzo8bbof3.png)
+![API Key System](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191095/whbi2i04pjduh971gjck.png)
 
 Secure, unique API keys for each user—used for request tracking and rate limiting.
 
@@ -62,7 +64,7 @@ Secure, unique API keys for each user—used for request tracking and rate limit
 
 ### 📚 Documentation Center
 
-![Documentation Center](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191086/j6gbdele1yps4zvam03l.png)
+![Documentation Center](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191089/jaan4t5lfqk748hoxljt.png)
 
 Comprehensive guide with endpoints, error handling, and sample code.
 
@@ -70,23 +72,15 @@ Comprehensive guide with endpoints, error handling, and sample code.
 
 ### 🧪 Sample Code & Usage Limits
 
-![Code Samples](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191089/jaan4t5lfqk748hoxljt.png)
+![Code Samples](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191092/rbnc7rmzbot9o5xrmvpm.png)
 
 Includes JavaScript, Python, and universal pseudocode for easy integration.
 
 ---
 
-### 📊 Request Monitoring
-
-![Request Tracker](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191092/rbnc7rmzbot9o5xrmvpm.png)
-
-Track API usage per user and enforce request limits intelligently.
-
----
-
 ### 💻 Java Desktop App Integration
 
-![Java App](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191095/whbi2i04pjduh971gjck.png)
+![Java App](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191086/j6gbdele1yps4zvam03l.png)
 
 Downloadable JavaFX/Swing app for offline AI access and API testing.
 
@@ -102,7 +96,7 @@ Background color changes based on user interaction—visual cue for AI activity.
 
 ### 🔐 Secure Key Architecture
 
-![Crypto Key Logic](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191238/vmvjzcegttnpaxbd0a8k.png)
+![Crypto Key Logic](https://res.cloudinary.com/dqjorntxe/image/upload/v1755192035/ibshhbxuzmguaugxx2il.png)
 
 Uses Node.js Crypto module for secure, hashed API keys.
 
@@ -110,7 +104,7 @@ Uses Node.js Crypto module for secure, hashed API keys.
 
 ### 🧵 Session-Based AI Flow
 
-![Session Flow](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191241/fm4ou11vhbiknnteezk4.png)
+![Session Flow](https://res.cloudinary.com/dqjorntxe/image/upload/v1755191083/rkwfva8zebxvzo8bbof3.png)
 
 Each user session is tracked for personalized and secure AI communication.
 
